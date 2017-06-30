@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>TecnoShop</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Russo+One|Merriweather" rel="stylesheet">
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/components-font-awesome/css/font-awesome.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- HEADER -->
+
+    <header id="header-container">
+      <div class="container">
+        <div class="row flex-items-xs-middle flex-items-xs-between">
+          <div class="col-xs-3">
+              <h1>TecnoShop</h1>
+          </div>
+          <div class="col-xs-3 text-xs-right">
+            <button class="navbar-toggler pull-xs-right hidden-sm-up" data-toggle="collapse" data-target="#navMenu">
+              &#9776;
+            </button>
+            <a class="login hidden-xs-down text-uppercase font-weight-bold pull-sm-right" href="">Login</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER -->
+
+    <!-- HEADER -->
+
+    <!-- MENU -->
+    <div id="menu-container">
+
+      <nav id="navMenu" class="navbar-toggleable-xs collapse navbar navbar-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-0">
+              <ul class="nav navbar-nav">
+                <li class="nav-item text-xs-center active">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item text-xs-center">
+                  <a href="catalogo.html" class="nav-link">Catalogo</a>
+                </li>
+                <li class="nav-item text-xs-center">
+                  <a href="carrito.html" class="nav-link">Carrito</a>
+                </li>
+                <li class="nav-item text-xs-center hidden-sm-up">
+                  <a href="#" class="nav-link">Login</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-6 offset-md-2 hidden-xs-down">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Encontro lo que buscaba ?">
+                  <span class="input-group-btn">
+                    <button class="btn btn-buscar" type="button">
+                      <span class="hidden-sm-down">Buscar</span>
+                      <i class="fa fa-search hidden-md-up"></i>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SEARCH BAR FUERA DEL NAVBAR -->
+      <div id="search-bar" class="container hidden-sm-up">
+        <div class="row">
+          <div class="col-xs">
+            <form>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Encontro lo que buscaba ?">
+                <span class="input-group-btn">
+                  <button class="btn btn-buscar" type="button">
+                    <span class="hidden-sm-down">Buscar</span>
+                    <i class="fa fa-search hidden-md-up"></i>
+                  </button>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- SEARCH BAR FUERA DEL NAVBAR -->
+
+    </div>
+    <!-- MENU -->
+
+    <!-- CAROUSEL -->
+      <div id="carousel-container">
+        <div id="productosCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#productosCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#productosCarousel" data-slide-to="1"></li>
+            <li data-target="#productosCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="images/products/imac.png" alt="Primer producto">
+              <div class="carousel-caption">
+                <h4>Primer Producto</h4>
+                <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta architecto, sequi veritatis expedita aspernatur tempore deserunt molestias nostrum omnis corporis.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="images/products/ps4.png" alt="Segundo producto">
+              <div class="carousel-caption">
+                <h4>Segundo Producto</h4>
+                <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta architecto, sequi veritatis expedita aspernatur tempore deserunt molestias nostrum omnis corporis.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="images/products/xbox_360.png" alt="Tercer producto">
+              <div class="carousel-caption">
+                <h4>Tercer Producto</h4>
+                <p class="hidden-sm-down">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta architecto, sequi veritatis expedita aspernatur tempore deserunt molestias nostrum omnis corporis.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#productosCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Producto anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#productosCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+      </div>
+    <!-- CAROUSEL -->
+
+    <!-- INFORMACION -->
+
+    <div id="info-container">
+        <div class="container">
+          <div class="row text-xs-center">
+            <div class="col-xs-12 col-md-4">
+                <div class="servicio">
+                  <i class="fa fa-graduation-cap"></i>
+                  <h4>Profesionales</h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="servicio">
+                <i class="fa fa-truck"></i>
+                <h4>Envios a tiempo</h4>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="servicio">
+                <i class="fa fa-headphones"></i>
+                <h4>Soporte 24 horas</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- INFORMACION -->
+
+
+    <!-- FOOTER -->
+      <footer id="footer-container">
+        <div class="container">
+          <div class="row text-xs-center text-md-left">
+
+            <div class="col-md-4">
+                <form id="suscribeForm" action="#" method="POST">
+                  <h4 class="text-uppercase">Quieres recibir todas las novedades?</h4>
+                  <div class="form-group">
+                    <input type="text" class="form-control email" id="email" placeholder="tu@correo.com">
+                    <small class="form-text text-muted">No compartiremos tu informacion con nadie mas</small>
+                  </div>
+                  <button class="btn btn-primary form-text" type="submit" >Suscribirme</button>
+                </form>
+            </div>
+
+            <div class="col-md-3 offset-md-5">
+              <h4>Navegacion</h4>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="catalogo.html" class="nav-link">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Carrito</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Contacto</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
+    <!-- FOOTER -->
+
+
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:js(.) scripts/plugins.js -->
+    <script src="/bower_components/bootstrap/js/dist/alert.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/button.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/carousel.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/collapse.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/dropdown.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/modal.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/tab.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/tooltip.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/popover.js"></script>
+    <script src="/bower_components/bootstrap/js/dist/util.js"></script>
+    <!-- endbuild -->
+
+
+    <!-- build:js(.tmp) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
+</html>
